@@ -1,0 +1,77 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  background-color: lavender;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+p {
+  text-align: center;
+}
+
+div.calc {
+  background-color: #5ABCB9;
+  margin: 0px auto;
+  margin-top: 50px;
+  width: 20%;
+  height: auto;
+  padding: 1.5vw;
+  box-shadow: 2px 2px 5px gray;
+}
+
+button {
+  background-color: lavenderblush;
+  font-size: 1.5vw;
+  border: none;
+  border-radius: 4px;
+  height: 2.6vw;
+  width: 2.6vw;
+  margin: 5px;
+  box-shadow: 2px 2px 5px gray;
+  transition: 0.2s;
+
+}
+
+button:hover {
+  background-color: #FFE1D4;
+
+}
+
+button:focus {
+  outline: none;
+}
+
+textarea {
+  margin: 0px auto;
+  border-radius: 5px;
+  font-size: 3vw;
+  width: 100%;
+  border: none;
+  text-align: right;
+  font-family: 'Reqemli', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+                                                
+}
+.mt-50 {
+  margin-top: 50px;
+}
